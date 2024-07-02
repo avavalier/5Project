@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e0f7fa;
+    background-color: #bd7e76;
     /* Light cyan */
     text-align: center;
     margin: 0;
@@ -8,12 +8,15 @@ body {
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     /* Larger font size for headings */
-    color: #00796b;
+    color: #dfe3e4;
     /* Teal */
     margin-bottom: 30px;
+}
+h2 {
+    font-size: 12pt;
 }
 
 img.pop-icon {
@@ -70,4 +73,39 @@ div.content {
     padding-top: 20px;
     border-top: 2px dashed #00796b;
     /* Teal dashed border for separation */
+}
+
+#suggestions {
+    color:#013028;
+    list-style-type:none;
+    line-height: 30px;
+    background-color: rgb(222, 229, 235);
+
+}
+
+.poss {
+    background-color: beige;
+    padding: 1%;
+}
+
+.possibilities-link {
+    font-size: 12pt;
+    padding: 10px;
+  
+    
+}
+
+footer {
+   
+    background-color: #004d40;
+    padding: 10px;
+}
+
+spotify h3 {
+    text-align: left;
+}
+.spotify {
+    width: 50px;
+    height: 50px;
+    padding-top: 200px;
 }
